@@ -1,8 +1,7 @@
+colorsArr = ["#f4dc90", "#62aa78", "#d5525e", "#ab66db", "#5a64e7"]
+
 function bgColorChange() {
-  var newColors = Please.make_color({
-    colors_returned: 2
-  })
-  document.body.style.backgroundColor = newColors[0];
+  document.body.style.backgroundColor = colorsArr[Math.floor(Math.random()*5)];
   var x = document.getElementById("btnId");
-  x.style.backgroundColor = x.style.borderColor = newColors[1];
+  x.style.backgroundColor = x.style.borderColor = colorsArr[Math.floor(Math.random()*5)];
 }
