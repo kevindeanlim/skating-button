@@ -7,6 +7,10 @@ body{
   -o-transition: background-color .5s ease-out;
 }
 
+a{
+  text-decoration: none;
+}
+
 h1{
   font-family: Fjalla One;
   font-weight: lighter;
